@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/gambar/black\ background\ 1.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: 0;
+  padding-top:50px ;
+}
+.profile {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px auto;
+  flex-direction: column;
+}
+.profile img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.profile h3 {
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  margin-top: 10px;
+}
+.profile p {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.link {
+  width: 380px;
+  height: 350px;
+  padding: 20px;
+  box-sizing: border-box ;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.link a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  margin: 25px;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 24px;
+}
+.link a:hover {
+  background-color: #FF914D;
+  color: white;
+}
+.footer {
+  width: 100vw;
+  height: 20px;
+  margin-top: 100px;
+}
+.footer p {
+  color:white;
+  text-align: center;
+  font-family:Sans-Serif;
+  font-size: 12px;
+}
